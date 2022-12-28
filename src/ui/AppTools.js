@@ -51,13 +51,16 @@ class AppTools extends Component {
 		if (null === this.props.siteHome) {
 			return null;
 		}
+		{/*
 		return (
+			
 			<Tooltip title="Site home">
 				<IconButton color="inherit" aria-label="home" onClick={this.props.siteHome}>
 					<HomeIcon />
 				</IconButton>
 			</Tooltip>
 		)
+		*/}
 	}
 
 	render() {
@@ -67,7 +70,7 @@ class AppTools extends Component {
 					<IconButton edge="start" color="inherit" aria-label="menu" onClick={this.props.toggleDrawer}>
 						<MenuIcon />
 					</IconButton>
-					<Typography variant="h6" color="inherit">Futsal tctics board</Typography>
+					<Typography variant="h6" color="inherit">TacticBoard</Typography>
 					{this.renderSiteHome()}
 					{this.renderAnimControls()}
 					<div className={this.props.classes.grow} />
@@ -78,11 +81,15 @@ class AppTools extends Component {
 						</IconButton>
 					</Tooltip>
 					<Tooltip title="Share link">
+					
 						<span>
+							{/*
 							<IconButton aria-label="Share link" color="inherit" disabled={!this.props.shareEnabled} onClick={this.props.shareTactics}>
 								<LinkIcon />
 							</IconButton>
+							*/}
 						</span>
+				    
 					</Tooltip>
 					<FullscreenToggle />
 					<UserAccount 

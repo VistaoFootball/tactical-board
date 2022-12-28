@@ -91,7 +91,7 @@ class DrawerMenu extends Component {
 		return (
 			<Drawer anchor="left" open={this.state.drawerOpen} onClose={this.ToggleDrawer}>
 				<Box p={2}>
-					<Typography variant="h4" component="h2">Tactics board</Typography>
+					<Typography variant="h4" component="h2">TacticBoard</Typography>
 					<Divider />
 					<List component="nav" aria-label="main mailbox folders">
 						<ListItem>

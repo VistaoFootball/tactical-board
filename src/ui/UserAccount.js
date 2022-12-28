@@ -63,7 +63,9 @@ class UserAccount extends Component {
 		}
 
 		return (
+			
 			<React.Fragment>
+				{/*
 				<Tooltip title={userName}>
 					<IconButton ref={this._refMenu} aria-label="User" color="inherit" onClick={this.userOnClick}>
 						<Avatar src={avatarSrc}>{avatarIcon}</Avatar>
@@ -106,8 +108,10 @@ class UserAccount extends Component {
 						<ListItemIcon><Logout fontSize="small" /></ListItemIcon>Logout
 					</MenuItem>
 				</Menu>
+							*/}
 			</React.Fragment>
-		);
+
+				); 
 	}
 }
 

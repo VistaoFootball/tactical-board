@@ -10,7 +10,7 @@ class SiteLogo extends Component {
 		}
 		return (
 			<Paper elevation={3} sx={{ position: 'absolute', bottom:0, right:0, m:2, p:0.5 }}>
-				<a href={this.props.logoLink}><img alt="site logo" src={this.props.logoURL} /></a>
+				<a href="https://vistao.co"></a>
 			</Paper>
 		);
 	}

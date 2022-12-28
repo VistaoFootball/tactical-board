@@ -20,11 +20,10 @@ class Goal extends Component {
 		return (
 
 			<g>
-			{/* 
+
 				<rect x={tlX} y={tlY} width={w} height={h} fill="url(#goal-net)" stroke="#777777" strokeWidth="4" data-ref={this.props.id} />
 				<line x1={trX} y1={trY} x2={brX} y2={brY} strokeWidth="5" stroke="white" />
-				<line x1={trX} y1={trY} x2={brX} y2={brY} stroke="red" strokeDasharray="20" strokeWidth="6" />
-			*/}
+				<line x1={trX} y1={trY} x2={brX} y2={brY} stroke="white" strokeDasharray="20" strokeWidth="6" />
 				</g>
 		
 		);

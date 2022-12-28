@@ -542,7 +542,7 @@ class PitchEdit extends Component {
 						<rect width={editorWidth} height={editorHeight} fill="#b7b7b7" fillOpacity="0.5" />
 					</g>
 					
-					<g id="pitch" transform={pitchTransform} fill="#0cba7b" stroke="white" strokeWidth="8">
+					<g id="pitch" transform={pitchTransform} fill="#3483eb" stroke="white" strokeWidth="8">
 						<rect width="4000" height="2000" />
 						{this.renderCenterAD(1700,700,600,600)}
 						<line x1="2000" x2="2000" y1="0" y2="2000" />
@@ -554,24 +554,23 @@ class PitchEdit extends Component {
 							<path fill="none" d="M0,1975 a25,25 0 0,1 25,25" />
 							<path fill="none" d="M3975,2000 a25,25 0 0,1 25,-25" />
 						</g>
-						{/*
+
 						<g id="substitution-zones-up">
 							<line x1="1000" x2="1000" y1="-48" y2="32" />
 							<line x1="1500" x2="1500" y1="-48" y2="32" />
 							<line x1="2500" x2="2500" y1="-48" y2="32" />
 							<line x1="3000" x2="3000" y1="-48" y2="32" />
 						</g>
-						*/}
-						{/*
+
+
 						<g id="substitution-zones-down">
 							<line x1="1000" x2="1000" y1="1968" y2="2048" />
 							<line x1="1500" x2="1500" y1="1968" y2="2048" />
 							<line x1="2500" x2="2500" y1="1968" y2="2048" />
 							<line x1="3000" x2="3000" y1="1968" y2="2048" />
 						</g>
-						*/}
+
 						<g id="left">
-							{/*
 							<line x1="500" x2="500" y1="980" y2="1020" />
 							<line x1="600" x2="600" y1="842" y2="1158" />
 							<circle r="12" cx="600" cy="1000" fill="white" strokeWidth="0" />
@@ -579,24 +578,17 @@ class PitchEdit extends Component {
 							<path fill="none" d="M600,1158 a600,600 0 0,1 -600,600" />
 							<line x1="-20" x2="-60" y1="500" y2="500" />
 							<line x1="-20" x2="-60" y1="1500" y2="1500" />
-							*/}
-							<g>
-								<polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" points="0,1500 461,1500 461,500 0,500 			"/>
-								<polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" points="0,800 150,800 150,1200 0,1200 			"/>
-								<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M461,800c174,21,232,308,0,379" />
-								<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="290.5" cy="1000" r="10"/>
-							</g>
 						</g>
-						{/*
+
 						<g id="left-penalty" fill="white" strokeWidth="0">
 							<rect width="16" height="16" x="992" y="492" />
 							<circle r="12" cx="1000" cy="1000"/>
 							<rect width="16" height="16" x="992" y="1492" />
 						</g>
-						*/}
+
 
 						<g id="right">
-							{/* 
+
 							<line x1="3500" x2="3500" y1="980" y2="1020" />
 							<line x1="3400" x2="3400" y1="842" y2="1158" />
 							<circle r="12" cx="3400" cy="1000" fill="white" strokeWidth="0" />
@@ -604,27 +596,17 @@ class PitchEdit extends Component {
 							<path fill="none" d="M3400,1158 a600,600 0 0,0 600,600" />
 							<line x1="4020" x2="4060" y1="500" y2="500" />
 							<line x1="4020" x2="4060" y1="1500" y2="1500" />
-							*/}
-							<g>
-								<polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" points="4000,1500 3539,1500 3539,500 4000,500 			"/>
-								<polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" points="4000,800 3850,800 3850,1200 4000,1200 			"/>
-								<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M3539,800c-174,21,-232,308,0,379" />
-								<circle fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="3709.5" cy="1000" r="10"/>
-							</g>
-						
 						</g>
-						{/*
 						<g id="right-penalty" fill="white" strokeWidth="0">
 							<rect width="16" height="16" x="2992" y="492" />
 							<circle r="12" cx="3000" cy="1000" />
 							<rect width="16" height="16" x="2992" y="1492" />
 						</g>
-						*/}
 					</g>
 					<g id="pitchOverlay" stroke="white" strokeWidth="8">
 						{this.renderPitchOverlay()}
 					</g>
-					<g id="ellipses">{this.renderEllipses(this.props.pitch.ellipses)}</g>
+					<g id="ellipses">{this.renderEllipses(this.props.pitch.ellipses)}</g> 
 					<g id="squares">{this.renderSquares(this.props.pitch.squares)}</g>
 					<g id="extras">{this.renderExtras(this.props.pitch.extras)}</g>
 					<g id="players" fontSize="50">

@@ -1,5 +1,5 @@
 # Tactics board
-Project for futsal Tactics board [preview](https://gljubojevic.github.io/tactics-board)
+Project for Football Tactics board [preview](https://gljubojevic.github.io/tactics-board)
 
 Reference for project is https://tactical-board.com/uk/mini-football  
 **All features there are required here too**
@@ -20,7 +20,7 @@ This enables following features:
 ## What needs to be done
 Here is list of what needs to be done in project.  
 Reference for project is https://tactical-board.com/uk/mini-football  
-**Project is required to have all features of reference project but for futsal only.**
+**Project is required to have all features of reference project but for Football only.**
 
 **NOTE:** Functionality that is already done is ~~scratched~~ in description below.
 
@@ -42,8 +42,8 @@ Target platforms
 SVG image is generated using metric centimeter (cm) as default unit.  
 1 in SVG image equals 1cm in real world.
 
-## Futsal pitch
-Main editing area is shown as default futsal pitch including all elements defined by [futsal rules](https://www.fifa.com/who-we-are/news/new-futsal-laws-of-the-game-approved-3073616)
+## Football pitch
+Main editing area is shown as default Football pitch including all elements defined by [Football rules](https://www.fifa.com/who-we-are/news/new-Football-laws-of-the-game-approved-3073616)
 
 Pitch is created as SVG image and is is base for all editing.
 
@@ -93,7 +93,7 @@ Edit options:
 - ~~rename (players only)~~
 
 ## Overlays
-Sometimes futsal training is held on different pitch than original.
+Sometimes Football training is held on different pitch than original.
 For that purpose is is required to show overlay of:
 - ~~exercises pitch (28mx20m)~~
 - ~~basketball pitch (28mx15m)~~

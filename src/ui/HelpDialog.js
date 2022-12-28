@@ -55,11 +55,11 @@ class HelpDialog extends Component {
 	render() {
 		return (
 			<Dialog open={this.state.open} onClose={this.handleClose} scroll='paper' fullWidth={true} maxWidth="xl">
-				<DialogTitleClose id="help-dialog-title" onClick={this.handleClose}>Futsal tactics board help</DialogTitleClose>
+				<DialogTitleClose id="help-dialog-title" onClick={this.handleClose}>Football tactics board help</DialogTitleClose>
 				<DialogContent dividers={true}>
 					<h1>Help</h1>
-					<p>Futsal tactics board is a tool for visualizing practice exercises or game tactics, includes option to make static or animated visualization.</p>
-					<p>Pitch is scaled version of real futsal pitch.</p>
+					<p>Football tactics board is a tool for visualizing practice exercises or game tactics, includes option to make static or animated visualization.</p>
+					<p>Pitch is scaled version of real Football pitch.</p>
 					<p><b>To use saving and loading options you need to be registered user.</b></p>
 					<h2><MenuIcon />Main menu</h2>
 					<p>Located at upper left corner has following options</p>
@@ -86,7 +86,7 @@ class HelpDialog extends Component {
 					<ul>
 						<li><CursorDefault/> <b>Select / Move</b> for selecting and moving elements on pitch</li>
 						<li><Delete/> <b>Remove</b> removes only one element and switches back to Select / Move tool</li>
-						<li><b>Pitch overlay</b> is rectangle showing different sizes of on top of futsal pitch,<br /> available options are
+						<li><b>Pitch overlay</b> is rectangle showing different sizes of on top of Football pitch,<br /> available options are
 							<ul>
 								<li><b>None</b> no overlay selected</li>
 								<li><b>Exercise</b> smaller exercise pitch</li>

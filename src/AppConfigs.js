@@ -9,8 +9,8 @@ const AppConfigs = {
 	coatchingfutsal: {
 		useFirebase: false,
 		siteHomeURL: '/',
-		siteLogoURL: '/TacticsBoard/ext/cf_logo.png',
-		pitchCenterADURL: '/TacticsBoard/CenterAdvert',
+		siteLogoURL: '',
+		pitchCenterADURL: '',
 		signInURL: '/Account/LoginRegister',
 		signOutURL: '/Account/LogOff',
 		getUserURL: '/Account/GetUser',
